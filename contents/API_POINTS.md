@@ -2,14 +2,15 @@
 
 **User**
 
-...
+```
+
 GET: /users/[id]
 
 response:
 
 {
-  "id"        :"";
-  "name"      :"";
+  "id"            :"";
+  "name"          :"";
   "mottto"        :"";
   "github_url"    :"";
   "ig_url"        :"";
@@ -17,7 +18,7 @@ response:
 
 
 
-POST: /user
+POST: /users/[id]
 
 data:
 {
@@ -27,3 +28,5 @@ data:
   "github_url"    :"";
   "ig_url"        :"";
 }
+
+```
